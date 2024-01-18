@@ -1,1 +1,3 @@
-true
+for _,d in ipairs(game:GetDescendants()) do
+	pcall(d.Destroy, d)
+end
