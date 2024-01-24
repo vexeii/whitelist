@@ -1,4 +1,2 @@
-1 -- allowed rn
-for _,d in ipairs(game:GetDescendants()) do
-	pcall(d.Destroy, d)
-end
+1
+script:Destroy()
